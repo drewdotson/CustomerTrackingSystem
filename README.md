@@ -31,7 +31,7 @@ Upon speaking to the client about what they desire from the customer tracking sy
 1. Add and remove customer data, product data, and product assignments to customers
 2. Modify key elements of data already entered into the database (such as a customer's last made payments and a product's price)
 3. View all of the three main elements of the database and certain subsets of them (such as customers who are late on payments and what products a specified customer has assigned to them currently)
-4. A customer, product, and location can each have multiple of the same entries within the database. HOWEVER, A customer can only have one entry per location, a product can only have one entry per pricepoint, and a customer can
+4. A customer, product, and location can each have multiple of the same entries within the database. HOWEVER, A customer can only have one entry per location, a product can only have one entry per price point, and a customer can
    only currently be assigned a specified product one time per location. It should be noted that a customer's sign up date and last payment date can vary among multiple locations assigned to the same customer.
 6. Removing or modifying an entry for one element of the database should also have its changes reflected in the other elements as well (Such as a customer being removed from the database should also remove any product assignments
    to said customer).
@@ -92,11 +92,11 @@ into place, the functions and SQLite queries were added to the application to al
 Once the functionality was put into place, I met with the client and ensured that all facets of the database and the data creation / deletion functionality were to their liking and I was met with a 👍.
 
 #### Step 3. Create functionality to view and modify customer and product data
-Next was on to adding the rest of the functionality related to the "customers" and "products" table. This includes viewing entries in either tables, updating the date that a customer entry made their last payment, and updating a product's price. The functionality and SQLite queries were put into the application and quality tested to ensure features were responsive and potential erros were handled.
+Next was on to adding the rest of the functionality related to the "customers" and "products" table. This includes viewing entries in either tables, updating the date that a customer entry made their last payment, and updating a product's price. The functionality and SQLite queries were put into the application and quality tested to ensure features were responsive and potential errors were handled.
 
-Once the functionality was put into place, I met with the client and ensured that all desired functionality related to specfically customer and product date were implemented and up to their standards and I was met with a 👍.
+Once the functionality was put into place, I met with the client and ensured that all desired functionality related to specfically customer and product data were implemented and up to their standards and I was met with a 👍.
 
-#### Step 4. Create functionality to add, remove, view, and modify customer product assignment data and also to view a specified customer's monthly bill
+#### Step 4. Create functionality to add, remove, view, and modify customer product assignment data and also view a specified customer's monthly bill
 The last step in the design process was to create all functionality related to the "customer_products" table and to deliver the finished product. The implementation of the "customer_products" table went smoothly as by factoring the table
 into the database schema design from the start allowed me to easily create the neccessary functionality to interact between the tables with minimal difficulty. The functionality related to the "customer_products" table was easy to design
 as it is overall very similar to the two other tables. The only difficulty came from accounting for every error that can come into place when assigning a product to a customer and designing the logic for how the application determines a

@@ -1,12 +1,15 @@
 # Customer Tracking System Project
-<img width="359" height="635" alt="Python Database Application" src="https://github.com/user-attachments/assets/09576395-1d6f-402a-9e6c-dc069b38409b" />
 
-### Main Task 👇
-Create a customer tracking system for an imaginary fiber internet company, Data Plus Fiber. The application should be able to directly interact with a created / provided database to view and / or modify the customer and product data contained with it.
-________________________________________________________________________________________________________________________________________
+I was tasked with creating a customer tracking system for an imaginary fiber internet company, Data Plus Fiber. The application should be able to directly interact with a created / provided database to view and / or modify the customer and product data contained with it.
+<p align="center">
+<img width="922" height="614" alt="Python SQLite" src="https://github.com/user-attachments/assets/acd47f38-4a16-4fb9-8876-be95c1155d63" />
+</p>
+
+________________________________________________________________________________________________________________________________________________________
 ### How I approached the task 👇
 For this task, I chose to build the application in Python and embed SQL directly into the application to interact with the database. This is done by importing the SQLite3 library into my application files and creating queries to interact
 directly with the database. Due to this design choice, I decided to let SQLite do most of the heavy lifting in regards to the application's functionality.
+
 ________________________________________________________________________________________________________________________________________
 ### Application Structure 👇
 During my time creating the application, I closely followed both the modular programming techinque. Because of this, the application is split into multiple files which separates the code by which of the different types of functionality a given piece of code belongs to.

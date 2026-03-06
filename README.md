@@ -1,6 +1,6 @@
 # Customer Tracking System Project
 
-I was tasked with creating a customer tracking system for an imaginary fiber internet company, Data Plus Fiber. The application should be able to directly interact with a created / provided database to view and / or modify the customer and product data contained with it.
+I created a customer tracking system for an imaginary fiber internet company, Data Plus Fiber. The application should be able to directly interact with a created / provided database to view and / or modify the customer and product data contained with it.
 <p align="center">
 <img width="922" height="614" alt="Python SQLite" src="https://github.com/user-attachments/assets/acd47f38-4a16-4fb9-8876-be95c1155d63" />
 </p>
